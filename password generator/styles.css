@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1E3A5F; /* Denim background color */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    background: #2C3E50;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: #ECF0F1;
+    margin-bottom: 1rem;
+}
+
+.generated-password {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+    background-color: #34495E;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+#passwordDisplay {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #3B5998;
+    color: #fff;
+}
+
+.fa-copy {
+    cursor: pointer;
+    color: #1E90FF;
+    transition: color 0.3s;
+}
+
+.fa-copy:hover {
+    color: #87CEEB;
+}
+
+button {
+    background-color: #1E90FF;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4169E1;
+}
+
+.custom-password {
+    margin-top: 2rem;
+}
+
+.custom-password input {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #555;
+    margin-right: 0.5rem;
+}
+
+.custom-password button {
+    background-color: #1E90FF;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.custom-password button:hover {
+    background-color: #4169E1;
+}
